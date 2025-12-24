@@ -1,15 +1,15 @@
 # v0.1 Home-Linux-Server Build Checklist
 
 ## Planning
-- [ ] Define purpose of v0.1 (intentionally insecure baseline)
-- [ ] Select host environment (VM or bare metal)
-- [ ] Select Linux distribution and version
+- [x] Define purpose of v0.1 (intentionally insecure baseline)
+- [x] Select host environment (VM or bare metal)
+- [x] Select Linux distribution and version
 - [ ] Define version naming and documentation rules
 
 ## Base Installation
-- [ ] Install Linux OS
-- [ ] Create primary admin user
-- [ ] Set intentionally weak password (documented)
+- [x] Install Linux OS
+- [x] Create primary admin user
+- [x] Set intentionally weak password (documented)
 - [ ] Enable SSH with password authentication
 
 ## Services (Attack Surface)
