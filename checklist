@@ -1,0 +1,39 @@
+# v0.1 Home-Linux-Server Build Checklist
+
+## Planning
+- [ ] Define purpose of v0.1 (intentionally insecure baseline)
+- [ ] Select host environment (VM or bare metal)
+- [ ] Select Linux distribution and version
+- [ ] Define version naming and documentation rules
+
+## Base Installation
+- [ ] Install Linux OS
+- [ ] Create primary admin user
+- [ ] Set intentionally weak password (documented)
+- [ ] Enable SSH with password authentication
+
+## Services (Attack Surface)
+- [ ] Install web server (Apache or Nginx)
+- [ ] Confirm web service reachable
+- [ ] Leave default configurations unchanged
+- [ ] Expose at least one sensitive file (intentional)
+
+## Network
+- [ ] Use permissive/default firewall rules
+- [ ] Confirm SSH (22) open
+- [ ] Confirm HTTP (80) open
+
+## Logging (Baseline Only)
+- [ ] Confirm system logs exist locally
+- [ ] No log forwarding or alerts configured
+
+## Validation
+- [ ] Confirm server IP address
+- [ ] Confirm services running
+- [ ] Document open ports
+- [ ] Take screenshots or notes as evidence
+
+## Documentation
+- [ ] Update `versions/v0.1-insecure-baseline.md`
+- [ ] Document server build details
+- [ ] Commit changes to GitHub
