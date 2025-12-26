@@ -31,9 +31,9 @@
 - [x] Confirm server IP address
 - [ ] Confirm services running
 - [ ] Document open ports
-- [ ] Take screenshots or notes as evidence
+- [x] Take screenshots or notes as evidence
 
 ## Documentation
 - [ ] Update `versions/v0.1-insecure-baseline.md`
-- [ ] Document server build details
-- [ ] Commit changes to GitHub
+- [x] Document server build details
+- [x] Commit changes to GitHub
