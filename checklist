@@ -10,18 +10,19 @@
 - [x] Install Linux OS
 - [x] Create primary admin user
 - [x] Set intentionally weak password (documented)
-- [ ] Enable SSH with password authentication
+- [x] Enable SSH with password authentication
 
 ## Services (Attack Surface)
-- [ ] Install web server (Apache or Nginx)
-- [ ] Confirm web service reachable
-- [ ] Leave default configurations unchanged
+- [x] Install web server (Apache or Nginx)
+- [x] Confirm web service reachable
+- [x] Leave default configurations unchanged
 - [ ] Expose at least one sensitive file (intentional)
 
 ## Network
 - [ ] Use permissive/default firewall rules
-- [ ] Confirm SSH (22) open
-- [ ] Confirm HTTP (80) open
+- [x] confirm server IP address
+- [x] Confirm SSH (22) open
+- [x] Confirm HTTP (80) open
 
 ## Logging (Baseline Only)
 - [ ] Confirm system logs exist locally
