@@ -16,7 +16,7 @@
 - [x] Install web server (Apache or Nginx)
 - [x] Confirm web service reachable
 - [x] Leave default configurations unchanged
-- [x] Expose at least one sensitive file (intentional)
+- [ ] Expose at least one sensitive file (intentional)
 
 ## Network
 - [ ] Use permissive/default firewall rules
@@ -29,8 +29,8 @@
 
 ## Validation
 - [x] Confirm server IP address
-- [ ] Confirm services running
-- [ ] Document open ports
+- [x] Confirm services running
+- [x] Document open ports (ss, nmap, or netstat)
 - [x] Take screenshots or notes as evidence
 
 ## Documentation
