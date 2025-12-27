@@ -2,7 +2,7 @@
 
 ### Command
 ```bash
-sudo systemctl status apche2 --no-pager
+sudo systemctl status apache2 --no-pager
 ● apache2.service - The Apache HTTP Server
      Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
      Active: active (running) since Sat 2025-12-27 01:02:37 CST; 13h ago
@@ -15,16 +15,3 @@ sudo systemctl status apche2 --no-pager
              ├─1477 /usr/sbin/apache2 -k start
              ├─1481 /usr/sbin/apache2 -k start
              └─1482 /usr/sbin/apache2 -k start
-
-- Apache reachable:
-  ```bash
-  curl -I http://192.168.12.227
-HTTP/1.1 200 OK
-Date: Sat, 27 Dec 2025 21:09:07 GMT
-Server: Apache/2.4.58 (Ubuntu)
-Last-Modified: Wed, 24 Dec 2025 06:08:11 GMT
-ETag: "29af-646ac7c230f7f"
-Accept-Ranges: bytes
-Content-Length: 10671
-Vary: Accept-Encoding
-Content-Type: text/html
