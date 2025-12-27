@@ -24,3 +24,11 @@ It serves as both a learning project and a long-term reference for system admini
 ---
 
 ## Repository Structure
+---
+
+## Roadmap (High-Level)
+- [x] Initial server setup
+- [x] Disk identification and validation
+- [ ] Storage layout and mounting strategy
+- [ ] Backup strategy
+- [ ] Automation with systemd / cron
