@@ -32,3 +32,17 @@ It serves as both a learning project and a long-term reference for system admini
 - [ ] Storage layout and mounting strategy
 - [ ] Backup strategy
 - [ ] Automation with systemd / cron
+
+---
+
+## Versioning Strategy
+- **v0.x** → intentionally insecure learning baselines
+- **v1.x** → hardened and production-style configurations
+- Each version has its own documentation file under `/versions`
+
+---
+
+## Documentation
+- Current build: **v0.1 – Insecure Baseline**
+- Detailed baseline notes: [`versions/v0.1-insecure-baseline.md`](versions/v0.1-insecure-baseline.md)
+- Supporting command output and proof stored under `/evidence`
