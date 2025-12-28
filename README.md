@@ -24,6 +24,11 @@ It serves as both a learning project and a long-term reference for system admini
 ---
 
 ## Repository Structure
+- `README.md` – Project overview and roadmap
+- `versions/` – Versioned build and security documentation
+- `evidence/` – Command output, logs, and proof
+- `docs/` – Checklists and planning notes
+
 ---
 
 ## Roadmap (High-Level)
@@ -32,3 +37,17 @@ It serves as both a learning project and a long-term reference for system admini
 - [ ] Storage layout and mounting strategy
 - [ ] Backup strategy
 - [ ] Automation with systemd / cron
+
+---
+
+## Versioning Strategy
+- **v0.1** → intentionally insecure learning baselines
+- **v0.2** → hardened and production-style configurations
+- Each version has its own documentation file under `/versions`
+
+---
+
+## Documentation
+- Current build: **v0.1 – Insecure Baseline**
+- Detailed baseline notes: [`versions/v0.1-insecure-baseline.md`](versions/v0.1-insecure-baseline.md)
+- Supporting command output and proof stored under `/evidence`
