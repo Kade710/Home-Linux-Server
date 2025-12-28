@@ -24,6 +24,11 @@ It serves as both a learning project and a long-term reference for system admini
 ---
 
 ## Repository Structure
+- `README.md` – Project overview and roadmap
+- `versions/` – Versioned build and security documentation
+- `evidence/` – Command output, logs, and proof
+- `docs/` – Checklists and planning notes
+
 ---
 
 ## Roadmap (High-Level)
@@ -36,8 +41,8 @@ It serves as both a learning project and a long-term reference for system admini
 ---
 
 ## Versioning Strategy
-- **v0.x** → intentionally insecure learning baselines
-- **v1.x** → hardened and production-style configurations
+- **v0.1** → intentionally insecure learning baselines
+- **v0.2** → hardened and production-style configurations
 - Each version has its own documentation file under `/versions`
 
 ---
